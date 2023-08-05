@@ -1,0 +1,17 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 52px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 6px;
+    color: var(--accent);
+    background: white;
+    transition: all .4s;
+    &:hover {
+        color: white;
+        background: var(--contrast);
+    }
+}

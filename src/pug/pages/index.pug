@@ -7,8 +7,10 @@ block title
 	title Main
 
 block content
-	include ../blocks/main-header
-	h1 Home page
+	.container-big
+		include ../blocks/main-header
+		include ../blocks/home/home-intro
+		h1 Home page
 
 block scripts
 	script(src="assets/js/dist/webpack.js")

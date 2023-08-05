@@ -1,11 +1,25 @@
 body {
+	position: relative;
 	margin: 0;
-    padding: 0;
+	padding: 0;
 	font-size: 20px;
-      line-height: 30px;
-	color: white;
-	background: red;
+	line-height: 30px;
+	font-family: var(--font-1);
+	color: #000;
+	background: white;
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: 1px;
+		height: 100vh;
+		background: blue;
+		z-index: 10;
+		display: none;
+	}
 }
+
 
 * {
 	box-sizing: border-box;
@@ -26,6 +40,10 @@ img {
 	height: auto;
 }
 
+a {
+	text-decoration: none;
+}
+
 ul {
 	@include reset-list;
 }
@@ -42,6 +60,10 @@ p {
 .container {
 	margin: 0 auto;
 	max-width: 1200px;
+}
+.container-big {
+	margin: 0 auto;
+	max-width: 1440px;
 }
 
 input[type="submit"]:disabled {
