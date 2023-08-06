@@ -2,6 +2,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    padding-top: 50px;
     width: 100%;
     z-index: 1000;
 
@@ -11,6 +12,14 @@
     }
 
     .logo {
-        margin-right: 150px;
+        position: relative;
+        top: 3px;
+        left: 2px;
+        margin-right: 154px;
+        flex: 0 0 172px;
+    }
+    .btn {
+        margin-left: auto;
+        margin-right: 2px;
     }
 }

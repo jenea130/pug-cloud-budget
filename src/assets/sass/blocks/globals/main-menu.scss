@@ -1,7 +1,11 @@
 .main-menu {
+    position: relative;
+    top: -2px;
+    left: 1px;
+
     display: flex;
     align-items: center;
-    margin-right: 103px;
+    margin-right: 110px;
     a {
         display: block;
         margin: 0 10px;

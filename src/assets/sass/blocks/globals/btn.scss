@@ -10,8 +10,26 @@
     color: var(--accent);
     background: white;
     transition: all .4s;
+    cursor: pointer;
+
     &:hover {
         color: white;
         background: var(--contrast);
     }
+
+    &--border {
+        color: white;
+        background: transparent;
+        border: 1px solid white;
+
+        &:hover {
+            color: var(--accent);
+            background: white;
+        }
+    }
+
+    &--small {
+        padding: 4px 27px;
+    }
+
 }

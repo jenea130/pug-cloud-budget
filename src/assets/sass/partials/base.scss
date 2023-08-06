@@ -17,7 +17,7 @@ body {
 		height: 100vh;
 		background: blue;
 		z-index: 10;
-		display: none;
+		// display: none;
 	}
 }
 
@@ -65,7 +65,8 @@ p {
 
 .container {
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 1112px;
+	// background: yellow;
 }
 
 .container-big {

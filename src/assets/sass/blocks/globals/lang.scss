@@ -1,0 +1,29 @@
+.lang {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+
+    &__flag {
+        margin-right: 10px;
+    }
+
+    &__code {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 53%;
+        transform: translateY(-50%);
+        right: 14px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 8.5px 7px 0 7px;
+        border-color: #fff transparent transparent transparent;
+    }
+}
