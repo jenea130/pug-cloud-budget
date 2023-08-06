@@ -1,0 +1,13 @@
+.main-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 103px;
+    a {
+        display: block;
+        margin: 0 10px;
+        font-size: 14px;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+    }
+}

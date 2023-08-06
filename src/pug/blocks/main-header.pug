@@ -1,8 +1,23 @@
 header.main-header
-    .logo
-       a(href="#")
-    .main-menu
-        li
-            a(href="/") Home
-        li
-            a(href="/about.html") About
+    .container
+        .main-header__wrap
+            .logo
+                a(href="#")
+                    img(src="assets/i/logo.svg", alt="")
+            .main-menu
+                li
+                    a(href="/") Overview
+                li
+                    a(href="/about.html") Features
+                li
+                    a(href="/about.html") Technology
+                li
+                    a(href="/about.html") Contact
+                li
+                    a(href="/about.html") Sign up
+
+            .lang
+                .lang__flag 
+                    include icons/i-lang
+                .lang__code En
+            a.btn.btn--border Login
