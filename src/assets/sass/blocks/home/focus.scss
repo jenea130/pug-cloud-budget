@@ -1,0 +1,64 @@
+.focus {
+    padding: 94px 0 103px;
+    background: var(--accent);
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        gap: 81px;
+    }
+
+    &__content {
+        width: 40%;
+        color: white;
+    }
+
+    &__title {
+        padding-top: 27px;
+        margin-bottom: 45px;
+    }
+
+    &__text {
+        margin-bottom: 45px;
+    }
+
+    &__logos {
+        display: flex;
+        align-items: center;
+        gap: 23px;
+    }
+
+    &__img {
+        position: relative;
+        right: 50px;
+        width: 44%;
+        z-index: 1;
+
+        img {
+            border-radius: 15px;
+        }
+
+        img:first-of-type {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 5;
+        }
+
+        img:nth-of-type(2) {
+            position: absolute;
+            top: 50%;
+            left: -43px;
+            transform: translateY(-50%);
+            z-index: 2;
+        }
+
+        img:last-of-type {
+            position: absolute;
+            top: 50%;
+            left: 107px;
+            transform: translateY(-50%);
+            z-index: 3;
+        }
+    }
+}
