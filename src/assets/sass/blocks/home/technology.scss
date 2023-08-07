@@ -1,0 +1,43 @@
+.technology {
+    padding: 61px 0 108px;
+
+    &__title {
+        margin-bottom: 125px;
+        text-align: center;
+    }
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    &__item {
+        flex: 1px;
+        text-align: center;
+        &:last-of-type {
+            img {
+                position: relative;
+                top: 10px;
+            }
+        }
+    }
+    
+    &__img {
+        margin-bottom: -4px;
+        height: 80px;
+    }
+    
+
+    &__subtitle {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    &__text {
+        margin: 0 auto;
+        max-width: 192px;
+        font-size: 12px;
+        line-height: normal;
+    }
+}
