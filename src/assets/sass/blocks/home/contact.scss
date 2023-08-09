@@ -1,0 +1,26 @@
+.contact {
+    padding: 117px 0 78px;
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        gap: 138px;
+    }
+
+    &__content {
+        flex: 0 0 434px;
+        padding-left: 14px;
+    }
+
+    &__title {
+        margin-bottom: 54px;
+    }
+
+    &__form {
+        flex: 1;
+    }
+
+}
+
+
+

@@ -1,0 +1,21 @@
+.contact 
+    .container 
+        .contact__wrap 
+            .contact__content 
+                h2.contact__title.title Contact
+                .contact__text.text Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours
+            .contact__form 
+                form.form(action="") 
+                    .form__wrap 
+                        .form__group 
+                            input(type="text" placeholder="First Name")
+                        .form__group 
+                            input(type="text" placeholder="Last Name")
+                    .form__group 
+                        input(type="text" placeholder="Phone Number")
+                    .form__group 
+                        select#js-select(name="select")
+                            option Phone Number
+                            option select 2
+                            option select 3
+                    button.form__submit.btn.btn--dark Submit Now

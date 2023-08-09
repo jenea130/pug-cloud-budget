@@ -32,4 +32,12 @@
         padding: 4px 27px;
     }
 
+    &--dark {
+        padding: 18px 34px;
+        font-weight: 400;
+        color: white;
+        background: var(--accent);
+        border: none;
+    }
+
 }
