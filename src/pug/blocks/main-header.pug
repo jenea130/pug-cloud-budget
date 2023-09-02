@@ -4,7 +4,7 @@ header.main-header
             .logo
                 a(href="#")
                     img(src="assets/i/logo.svg", alt="")
-            .main-menu
+            .main-menu#js-main-menu
                 li
                     a(href="/") Overview
                 li
@@ -14,10 +14,14 @@ header.main-header
                 li
                     a(href="/about.html") Contact
                 li
+                    a(href="/about.html") Sign in
+                li
                     a(href="/about.html") Sign up
 
             .lang
-                .lang__flag 
+                .lang__flag
                     include icons/i-lang
                 .lang__code En
             a.btn.btn--border.btn--small Login
+
+            include header/sandwich
