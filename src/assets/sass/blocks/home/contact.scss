@@ -1,26 +1,36 @@
 .contact {
-    padding: 117px 0 78px;
+	padding: 11.7rem 0 7.8rem;
+	@media screen and (max-width: 992px) {
+		padding: 6.4rem 1.5rem;
+	}
 
-    &__wrap {
-        display: flex;
-        justify-content: space-between;
-        gap: 138px;
-    }
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+		gap: 13.8rem;
+		@media screen and (max-width: 992px) {
+			display: block;
+		}
+	}
 
-    &__content {
-        flex: 0 0 434px;
-        padding-left: 14px;
-    }
+	&__content {
+		flex: 0 0 43.4rem;
+		padding-left: 1.4rem;
+		@media screen and (max-width: 992px) {
+			margin-bottom: 6.4rem;
+      padding-left: 0;
+		}
+	}
 
-    &__title {
-        margin-bottom: 54px;
-    }
+	&__title {
+		margin-bottom: 5.4rem;
+	}
 
-    &__form {
-        flex: 1;
-    }
-
+	&__form {
+		flex: 1;
+	}
 }
 
-
-
+// * {
+//   border: 1px solid blue;
+// }

@@ -1,30 +1,34 @@
 .form {
-    &__wrap {
-        display: flex;
-        justify-content: space-between;
-        gap: 30px;
-    }
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+		gap: 3rem;
+		@media screen and (max-width: 992px) {
+			display: block;
+		}
+	}
 
-    &__group {
-        flex: 1;
-        margin-bottom: 24px;
+	&__group {
+		flex: 1;
+		margin-bottom: 2.4rem;
 
-        input[type="text"] {
-            width: 100%;
-            height: 60px;
-            font-family: var(--font-1);
-            font-size: 16px;
-            text-indent: 31px;
-            border-radius: 6px;
-            border: 1px solid #333;
-        }
+		input[type="text"] {
+			width: 100%;
+			height: 6rem;
+			font-family: var(--font-1);
+			font-size: 1.6rem;
+			text-indent: 3.1rem;
+			border-radius: 0.6rem;
+			border: 0.1rem solid #333;
+		}
 
-        &::placeholder {
-            color: rgba(19, 39, 67, 0.50);
-        }
-    }
+		&::placeholder {
+			color: rgba(19, 39, 67, 0.5);
+		}
+	}
 
-    select {
-        display: none;
-    }
+	select {
+		display: none;
+	}
 }
+

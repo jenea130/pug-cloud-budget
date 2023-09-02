@@ -1,29 +1,30 @@
 .lang {
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding-right: 40px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding-right: 4rem;
 
-    &__flag {
-        margin-right: 10px;
-    }
+	&__flag {
+		margin-right: 1rem;
+	}
 
-    &__code {
-        font-size: 14px;
-        text-transform: uppercase;
-        color: white;
-    }
+	&__code {
+		font-size: 1.4rem;
+		text-transform: uppercase;
+		color: white;
+	}
 
-    &::after {
-        content: '';
-        position: absolute;
-        top: 53%;
-        transform: translateY(-50%);
-        right: 14px;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 8.5px 7px 0 7px;
-        border-color: #fff transparent transparent transparent;
-    }
+	&::after {
+		content: "";
+		position: absolute;
+		top: 53%;
+		transform: translateY(-50%);
+		right: 1.4rem;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0.85rem.5 0.7rem 0 0.7rem;
+		border-color: #fff transparent transparent transparent;
+	}
 }
+
