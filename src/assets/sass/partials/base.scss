@@ -1,10 +1,26 @@
-body {
+html {
+  font-size: 62.5%;
+  min-width: 320px;
+  @media screen and (max-width: 1550px) {
+    font-size: 60%;
+  }
+  @media screen and (max-width: 1400px) {
+    font-size: 58%;
+  }
+  @media screen and (max-width: 1300px) {
+    font-size: 54%;
+  }
+  @media screen and (max-width: 1200px) {
+    font-size: 50%;
+  }
+}
 
+body {
 	position: relative;
 	margin: 0;
 	padding: 0;
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 2rem;
+	line-height: 3rem;
 	font-family: var(--font-1);
 	color: #000;
 	background: white;
@@ -18,7 +34,7 @@ body {
 		height: 100vh;
 		background: blue;
 		z-index: 10;
-		// display: none;
+		display: none;
 	}
 }
 
