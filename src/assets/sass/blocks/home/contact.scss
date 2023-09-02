@@ -1,6 +1,6 @@
 .contact {
 	padding: 11.7rem 0 7.8rem;
-	@media screen and (max-width: 992px) {
+	@media screen and (max-width: 1200px) {
 		padding: 6.4rem 1.5rem;
 	}
 
@@ -16,6 +16,9 @@
 	&__content {
 		flex: 0 0 43.4rem;
 		padding-left: 1.4rem;
+    @media screen and (max-width: 1200px) {
+      padding-left: 0;
+    }
 		@media screen and (max-width: 992px) {
 			margin-bottom: 6.4rem;
       padding-left: 0;
