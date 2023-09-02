@@ -1,44 +1,69 @@
 .technology {
-    margin-bottom: 19px;
-    padding: 61px 0 108px;
+	margin-bottom: 1.9rem;
+	padding: 6.1rem 0 10.8rem;
 
-    &__title {
-        margin-bottom: 125px;
-        text-align: center;
+	&__title {
+		margin-bottom: 12.5rem;
+		text-align: center;
+    @media screen and (max-width: 576px) {
+      margin-bottom: 6.4rem;
     }
+	}
 
-    &__wrap {
-        display: flex;
-        justify-content: space-between;
-        gap: 30px;
+	&__wrap {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 -1.5rem;
+    @media screen and (max-width: 576px) {
+      display: block;
+      margin: 0;
     }
+	}
 
-    &__item {
-        flex: 1px;
-        text-align: center;
-        &:last-of-type {
-            img {
-                position: relative;
-                top: 10px;
-            }
-        }
+	&__item {
+		margin: 0 1.5rem;
+		flex: 0 0 calc(25% - 3rem);
+		text-align: center;
+		@media screen and (max-width: 768px) {
+      margin: 0 1.5rem 6.4rem;
+			flex: 0 0 calc(50% - 3rem);
+		}
+    @media screen and (max-width: 576px) {
+      margin: 0 auto 6.4rem;
     }
-    
-    &__img {
-        margin-bottom: -4px;
-        height: 80px;
-    }
-    
+		&:last-of-type {
+			img {
+				position: relative;
+				top: 1rem;
+				// @media screen and (max-width: 992px) {
+				//   top: 0;
+				// }
+			}
+		}
+	}
 
-    &__subtitle {
-        margin-bottom: 5px;
-        font-size: 18px;
-    }
+	&__img {
+		margin-bottom: -0.4rem;
+		height: 8rem;
+		@media screen and (max-width: 1400px) {
+			margin-bottom: 1.6rem;
+		}
+	}
 
-    &__text {
-        margin: 0 auto;
-        max-width: 192px;
-        font-size: 12px;
-        line-height: normal;
+	&__subtitle {
+		margin-bottom: 0.5rem;
+		font-size: 1.8rem;
+	}
+
+	&__text {
+		margin: 0 auto;
+		max-width: 19.2rem;
+		font-size: 1.2rem;
+		line-height: normal;
+    @media screen and (max-width: 1200px) {
+      max-width: initial;
+      width: 80%;
     }
+	}
 }
+

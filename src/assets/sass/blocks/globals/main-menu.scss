@@ -1,17 +1,18 @@
 .main-menu {
-    position: relative;
-    top: -2px;
-    left: 1px;
+	position: relative;
+	top: -0.2rem;
+	left: 0.1rem;
 
-    display: flex;
-    align-items: center;
-    margin-right: 110px;
-    a {
-        display: block;
-        margin: 0 10px;
-        font-size: 14px;
-        font-weight: 700;
-        color: white;
-        text-transform: uppercase;
-    }
+	display: flex;
+	align-items: center;
+	margin-right: 11rem;
+	a {
+		display: block;
+		margin: 0 1rem;
+		font-size: 1.4rem;
+		font-weight: 700;
+		color: white;
+		text-transform: uppercase;
+	}
 }
+
